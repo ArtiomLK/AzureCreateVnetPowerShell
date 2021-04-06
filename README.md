@@ -5,7 +5,7 @@ Run the following commands in PowerShell to create an Azure Virtual Network
 ```PowerShell
 # Replace the following required Azure Virtual Network variables
 $vNet = @{
-    Name = 'vnet-name'
+    Name = 'your-vnet-name'
     ResourceGroupName = 'your-rg-name'
     Location = 'EastUS2'
     AddressPrefix = '10.0.0.0/16'
